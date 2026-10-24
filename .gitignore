@@ -1,0 +1,35 @@
+# ---- Vendored upstream repos (they have their own .git) ----
+src/navigation2/
+src/moveit2/
+src/ros2_control/
+src/ros2_controllers/
+src/moveit_ros/
+src/moveit_ros_plugins/
+src/moveit_planners/
+src/moveit_simulator/
+src/*_benchmarks/
+
+# ---- colcon build artefacts ----
+build/
+install/
+log/
+
+# ---- ROS ----
+*.rpl
+*.db3
+*.mcap
+__pycache__/
+*.py[cod]
+
+# ---- C++ ----
+*.o
+*.a
+*.so
+compile_commands.json
+
+# ---- Editors ----
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
